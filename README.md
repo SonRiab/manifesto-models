@@ -1,10 +1,19 @@
 # Manifesto Models
 
-Models to persist and map data from the Manifesto Project. (https://manifesto-project.wzb.eu/) 
+(No pure) POJOs to persist and map data from the Manifesto Project. (https://manifesto-project.wzb.eu/)
+
+### Attention
+
+The current state is alpha or work in progress! The library doesn't include all information the Manfiesto Project API 
+provides! 
 
 ## Getting started
 
-### Gradle
+You will find the models under the package name `de.vnull.manifestoproject.model`.
+
+### Installation 
+
+#### Gradle
 
 If you want to use this library with **Gradle** add this into the dependencies of your `build.gradle` file:
 ```
@@ -30,7 +39,7 @@ dependencies {
 }
 ```
 
-### Maven
+#### Maven
 
 If you want to use this library with **Maven** add this into the dependencies of your `pom.xml` file:
 ```
@@ -68,3 +77,40 @@ Full example of `pom.xml`:
 </project>
 
 ```
+
+#### Classpath
+
+If you want to use this library directly, you can [download](https://github.com/SonRiab/manifesto-models/releases) and 
+add it to our classpath.
+
+### Running tests
+
+Because this library only provides (no pure) POJOs you can use to map or persist Manifesto Project information, 
+no tests were added here.
+
+// TODO link to manifesto-api tests
+
+## Build with
+
+* [Gradle](https://gradle.org/) - Build Tool
+* [Maven](https://maven.apache.org/) - Dependency Management
+
+## Contributing
+
+// TODO add CONTRIBUTING file
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the 
+[tags on this repository](https://github.com/SonRiab/manifesto-models/tags). 
+
+## Authors
+
+* Rene Jablonski ([SonRiab](https://github.com/SonRiab)) - *Initial work*
+
+See also the list of [contributors](https://github.com/SonRiab/manifesto-models/contributors) who participated in this 
+project. They were also (hopefully) added to the [CONTRIBUTORS](CONTRIBUTORS) file.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
